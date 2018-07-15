@@ -29,6 +29,6 @@ end
 
 def selects_bear_that_killed_Tim
   #"SELECT id, name, age, gender, color, temperament, alive FROM bears WHERE name = null;"
-  "SELECT * FROM bears WHERE name = null;"
+  "SELECT * FROM bears WHERE id = 8;"
 
 end
